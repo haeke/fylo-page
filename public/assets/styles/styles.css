@@ -156,3 +156,51 @@ body {
 .productiveParagraph {
   width: 550px;
 }
+
+.testimonialLogo {
+  margin-left: -40px;
+  align-self: flex-start;
+}
+
+.testimonialsSection {
+  display: flex;
+  max-width: 1000px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.testimonial {
+  background: var(--alternateBlue);
+  flex: 1;
+  margin-right: 20px;
+  padding: 20px 10px;
+  border-radius: 4px;
+}
+
+.testimonialWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonialPersonContainer {
+  display: flex;
+}
+
+.testimonialPerson {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.testimonialTitle {
+  margin: 0 0 0 5px;
+}
+
+.testimonialPositionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
