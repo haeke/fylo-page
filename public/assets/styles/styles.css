@@ -1,0 +1,36 @@
+:root {
+  --headerFont: "Raleway", Arial, Helvetica, sans-serif;
+  --bodyFont: "Open Sans", Arial, Helvetica, sans-serif;
+  --backgroundBlue: hsl(217, 28%, 15%);
+  --mainBlue: hsl(218, 28%, 13%);
+  --alternateBlue: hsl(219, 30%, 18%);
+  --footerBlue: hsl(216, 53%, 9%);
+  --cyan: hsl(176, 68%, 64%);
+  --accentBlue: hsl(198, 60%, 50%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: var(--bodyFont);
+  font-size: 14px;
+}
+
+.mainHeader {
+  font-family: var(--headerFont);
+  font-weight: 700;
+}
+
+.callToActionHeader {
+  font-family: var(--headerFont);
+  font-weight: 400;
+}
+
+.bodyText {
+  font-family: var(--bodyFont);
+  font-weight: 700;
+}
+
+.bodyAltText {
+  font-family: var(--bodyFont);
+  font-weight: 400;
+}
