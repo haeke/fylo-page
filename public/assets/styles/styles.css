@@ -26,6 +26,7 @@ body {
 
 .logo {
   margin-left: 10px;
+  flex: 0;
 }
 
 .navSection {
@@ -241,4 +242,62 @@ body {
   border: transparent;
   background: var(--cyan);
   color: var(--white);
+}
+
+.socialsContainer {
+  display: flex;
+}
+
+.socialIcon {
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--white);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.footerSection {
+  display: flex;
+}
+
+.contactContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.phoneAndEmailContainer {
+  flex: 1;
+}
+
+.linksContainer {
+  flex: 1;
+}
+
+.phone,
+.email {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.socialsContainer {
+  flex: 1;
+}
+
+.links {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contactLink {
+  color: var(--white);
+  text-decoration: none;
 }
