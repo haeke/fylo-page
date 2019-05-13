@@ -40,7 +40,7 @@ body {
   color: var(--white);
   text-decoration: none;
   margin-right: 20px;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 300;
 }
 
@@ -51,6 +51,8 @@ body {
 
 .mainHeader {
   font-family: var(--headerFont);
+  font-size: 2.5rem;
+  margin: 10px 0;
   font-weight: 700;
 }
 
@@ -67,4 +69,31 @@ body {
 .bodyAltText {
   font-family: var(--bodyFont);
   font-weight: 400;
+}
+
+.introContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.introParagraph {
+  font-size: 1.1rem;
+  margin: 4px 0;
+  font-weight: 400;
+}
+
+.introButton {
+  background: var(--cyan);
+  border: 1px solid var(--cyan);
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 20px;
+  border-radius: 2rem;
+  padding: 1rem 2.5rem;
+}
+
+.whiteText {
+  color: var(--white);
 }
