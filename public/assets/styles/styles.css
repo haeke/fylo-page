@@ -11,8 +11,42 @@
 }
 
 body {
+  background: var(--backgroundBlue);
   font-family: var(--bodyFont);
   font-size: 14px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.headerSection {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.navSection {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  color: var(--white);
+}
+
+.navLink {
+  color: var(--white);
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.mainSection {
+  margin: 0 auto;
+  max-width: 1440px;
 }
 
 .mainHeader {
