@@ -285,6 +285,10 @@ body {
 
 .phoneAndEmailContainer {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .contactInfo {
@@ -304,8 +308,8 @@ body {
   margin-bottom: 10px;
 }
 
-.socialsContainer {
-  flex: 1;
+.link {
+  text-align: center;
 }
 
 .links {
