@@ -22,10 +22,10 @@ body {
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
+  margin: 0 30px;
 }
 
 .logo {
-  margin-left: 10px;
   flex: 0;
 }
 
@@ -77,6 +77,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 30px 0;
 }
 
 .introParagraph {
@@ -105,7 +106,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .featureArticle {
@@ -139,6 +140,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin: 30px 0;
 }
 
 .productiveImage {
@@ -169,7 +171,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 
 .testimonial {
@@ -178,6 +180,11 @@ body {
   margin-right: 20px;
   padding: 20px 10px;
   border-radius: 4px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 
 .testimonialWrapper {
@@ -260,6 +267,10 @@ body {
 }
 
 .footerSection {
+  margin: 0 30px;
+}
+
+.contactWrapper {
   display: flex;
 }
 
@@ -267,13 +278,18 @@ body {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: flex-start;
   text-align: center;
 }
 
 .phoneAndEmailContainer {
   flex: 1;
+}
+
+.contactInfo {
+  display: flex;
+  margin: 0;
 }
 
 .linksContainer {
@@ -285,6 +301,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .socialsContainer {
@@ -295,9 +312,26 @@ body {
   list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin: 0;
+  padding: 0;
 }
 
 .contactLink {
   color: var(--white);
   text-decoration: none;
 }
+
+.locationText {
+  margin: 0 10px;
+}
+
+.footerIcon {
+  font-size: 1.3rem;
+  align-self: flex-start;
+}
+
+.footerText {
+  margin: 0 10px 0 10px;
+}
+
+/* icon size 1.3rem */
