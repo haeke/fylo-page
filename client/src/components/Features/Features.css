@@ -1,0 +1,34 @@
+.featuresSection {
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.featureArticle {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.featureArticle:last-child {
+  margin-right: 0;
+}
+
+.featureHeader {
+  font-family: var(--headerFont);
+  margin-bottom: 0;
+}
+
+.featureParagraph {
+  font-family: var(--headerFont);
+  text-align: center;
+  line-height: 1.4;
+  width: 390px;
+}
