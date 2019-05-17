@@ -1,10 +1,12 @@
 import React from "react";
 
+import Intro from "../Intro/Intro";
+
 const Fylo = () => {
   return (
-    <section>
-      <h1>Fylo Main Section</h1>
-    </section>
+    <main className="mainSection">
+      <Intro />
+    </main>
   );
 };
 

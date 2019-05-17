@@ -6,16 +6,12 @@ import Nav from "../Nav/Nav";
 
 const App = () => {
   return (
-    <main>
-      <div>
-        <Router>
-          <Nav />
-          <Switch>
-            <Route path="/" exact component={Fylo} />
-          </Switch>
-        </Router>
-      </div>
-    </main>
+    <Router>
+      <Nav />
+      <Switch>
+        <Route path="/" exact component={Fylo} />
+      </Switch>
+    </Router>
   );
 };
 
