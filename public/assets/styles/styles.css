@@ -175,12 +175,12 @@ body {
 }
 
 .testimonial {
+  margin-right: 10px;
   background: var(--alternateBlue);
-  flex: 1;
-  margin-right: 20px;
   padding: 20px 10px;
   border-radius: 4px;
-  height: 200px;
+  /* height: 200px; */
+  width: 30%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -189,6 +189,7 @@ body {
 
 .testimonialWrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -204,6 +205,10 @@ body {
 
 .testimonialTitle {
   margin: 0 0 0 5px;
+}
+
+.testimonialParagraph {
+  width: 100%;
 }
 
 .testimonialPositionContainer {
@@ -339,3 +344,10 @@ body {
 }
 
 /* icon size 1.3rem */
+
+@media only screen and (max-width: 910px) {
+  .testimonial {
+    width: 80%;
+    margin: 10px auto;
+  }
+}
