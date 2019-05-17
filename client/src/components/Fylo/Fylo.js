@@ -4,12 +4,19 @@ import Intro from "../Intro/Intro";
 import Features from "../Features/Features";
 import FeaturesArticle from "../FeaturesArticle/FeaturesArticle";
 import Productive from "../Productive/Productive";
+import Testimonials from "../Testimonials/Testimonials";
+import TestimonialArticle from "../TestimonialArticle/TestimonialArticle";
 
 // ArticleImage's imports
 import access from "../../images/icon-access-anywhere.svg";
 import security from "../../images/icon-security.svg";
 import collaboration from "../../images/icon-collaboration.svg";
 import file from "../../images/icon-any-file.svg";
+
+// TestimonialImage's imports
+import profile_1 from "../../images/profile-1.jpg";
+import profile_2 from "../../images/profile-2.jpg";
+import profile_3 from "../../images/profile-3.jpg";
 
 const Fylo = () => {
   return (
@@ -45,6 +52,32 @@ const Fylo = () => {
         />
       </Features>
       <Productive />
+      <Testimonials>
+        <TestimonialArticle
+          testimonialQuote="Fylo has improved our team productivity by an order of magnitude.
+            Since making the switch our team has become a well-oiled
+            collaboration machine."
+          testimonialPersonImage={profile_1}
+          testimonialPersonName="Satish Patel"
+          testimonialPersonTitle="Founder &#x26; CEO, Huddle"
+        />
+        <TestimonialArticle
+          testimonialQuote="Fylo has improved our team productivity by an order of magnitude.
+            Since making the switch our team has become a well-oiled
+            collaboration machine."
+          testimonialPersonImage={profile_3}
+          testimonialPersonName="Iva Boyd"
+          testimonialPersonTitle="Founder &#x26; CEO, Nabisco"
+        />
+        <TestimonialArticle
+          testimonialQuote="Fylo has improved our team productivity by an order of magnitude.
+            Since making the switch our team has become a well-oiled
+            collaboration machine."
+          testimonialPersonImage={profile_2}
+          testimonialPersonName="Bruce McKenzie"
+          testimonialPersonTitle="Founder &#x26; CEO, Blue"
+        />
+      </Testimonials>
     </main>
   );
 };

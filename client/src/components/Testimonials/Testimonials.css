@@ -1,0 +1,56 @@
+.testimonialLogo {
+  margin-left: -40px;
+  align-self: flex-start;
+}
+
+.testimonialsSection {
+  display: flex;
+  max-width: 1000px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+}
+
+.testimonial {
+  margin-right: 10px;
+  background: var(--alternateBlue);
+  padding: 20px 10px;
+  border-radius: 4px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.testimonialWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.testimonialPersonContainer {
+  display: flex;
+}
+
+.testimonialPerson {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.testimonialTitle {
+  margin: 0 0 0 5px;
+}
+
+.testimonialParagraph {
+  width: 100%;
+}
+
+.testimonialPositionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
