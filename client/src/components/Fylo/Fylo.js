@@ -3,6 +3,7 @@ import React from "react";
 import Intro from "../Intro/Intro";
 import Features from "../Features/Features";
 import FeaturesArticle from "../FeaturesArticle/FeaturesArticle";
+import Productive from "../Productive/Productive";
 
 // ArticleImage's imports
 import access from "../../images/icon-access-anywhere.svg";
@@ -43,6 +44,7 @@ const Fylo = () => {
           covered allowing for all file types to be securely stored and shared."
         />
       </Features>
+      <Productive />
     </main>
   );
 };
