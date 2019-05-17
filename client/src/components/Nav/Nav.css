@@ -1,0 +1,31 @@
+.headerSection {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+
+.logo {
+  flex: 0;
+}
+
+.navSection {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  color: var(--white);
+}
+
+.navLink {
+  color: var(--white);
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.callToActionHeader {
+  font-family: var(--headerFont);
+  font-weight: 400;
+}

@@ -1,0 +1,25 @@
+:root {
+  --headerFont: "Raleway", Arial, Helvetica, sans-serif;
+  --bodyFont: "Open Sans", Arial, Helvetica, sans-serif;
+  --backgroundBlue: hsl(217, 28%, 15%);
+  --mainBlue: hsl(218, 28%, 13%);
+  --alternateBlue: hsl(219, 30%, 18%);
+  --footerBlue: hsl(216, 53%, 9%);
+  --cyan: hsl(176, 68%, 64%);
+  --accentBlue: hsl(198, 60%, 50%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  background: var(--mainBlue);
+  font-family: var(--bodyFont);
+  color: var(--white);
+  font-size: 14px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
