@@ -48,6 +48,14 @@
 
 @media only screen and (max-width: 800px) {
   .inputGroup {
-    display: block;
+    flex-wrap: wrap;
+  }
+
+  .signUpInput {
+    margin: 0 0 10px 0;
+  }
+
+  .signUpButton {
+    margin: 0;
   }
 }

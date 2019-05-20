@@ -37,4 +37,7 @@ code {
   .logo {
     width: 30%;
   }
+  .whiteText {
+    text-align: center;
+  }
 }

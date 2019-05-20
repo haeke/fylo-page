@@ -10,6 +10,7 @@ const App = () => {
       <Nav />
       <Switch>
         <Route path="/" exact component={Fylo} />
+        <Route path="/fylo-page" exact component={Fylo} />
       </Switch>
     </Router>
   );
