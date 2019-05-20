@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e233111a9437b4f6d6cf3a32c7a803ad",
+    "revision": "45615c4d24d3eb503b21830b7a638b3c",
     "url": "/fylo-page/index.html"
   },
   {
-    "revision": "fe368e6fa9e11c5db0bf",
-    "url": "/fylo-page/static/css/main.9c93aebc.chunk.css"
+    "revision": "4482691d96e73da3d235",
+    "url": "/fylo-page/static/css/main.a08633b0.chunk.css"
   },
   {
     "revision": "5f921cfab5724c10e677",
     "url": "/fylo-page/static/js/2.1011bc2e.chunk.js"
   },
   {
-    "revision": "fe368e6fa9e11c5db0bf",
-    "url": "/fylo-page/static/js/main.aaa696b7.chunk.js"
+    "revision": "4482691d96e73da3d235",
+    "url": "/fylo-page/static/js/main.89f56bb1.chunk.js"
   },
   {
     "revision": "938de353270c1475538e",
