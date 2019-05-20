@@ -32,6 +32,16 @@
   padding: 1rem;
   border-radius: 2rem;
   border: transparent;
+  background: var(--accentBlue);
+  color: var(--white);
+}
+
+.signUpAltButton {
+  flex: 1;
+  margin: 0 20px;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: transparent;
   background: var(--cyan);
   color: var(--white);
 }
