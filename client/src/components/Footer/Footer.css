@@ -84,3 +84,20 @@
 .footerText {
   margin: 0 10px 0 10px;
 }
+
+@media only screen and (max-width: 800px) {
+  .contactWrapper {
+    display: block;
+  }
+
+  .socialsContainer {
+    justify-content: center;
+  }
+
+  .contactContainer,
+  .phoneAndEmailContainer,
+  .linksContainer,
+  .socialsContainer {
+    margin: 20px 0;
+  }
+}
