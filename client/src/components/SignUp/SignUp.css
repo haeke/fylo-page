@@ -1,0 +1,37 @@
+.signUp {
+  width: 80%;
+  background: var(--backgroundBlue);
+  margin: 20px auto;
+  padding: 20px 10px;
+  border-radius: 4px;
+}
+
+.signUpHeader {
+  text-align: center;
+}
+
+.signUpParagraph {
+  text-align: center;
+}
+
+.inputGroup {
+  display: flex;
+}
+
+.signUpInput {
+  flex: 2;
+  margin: 0 20px;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: transparent;
+}
+
+.signUpButton {
+  flex: 1;
+  margin: 0 20px;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: transparent;
+  background: var(--cyan);
+  color: var(--white);
+}

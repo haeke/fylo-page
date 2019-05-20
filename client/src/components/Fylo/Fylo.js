@@ -6,6 +6,7 @@ import FeaturesArticle from "../FeaturesArticle/FeaturesArticle";
 import Productive from "../Productive/Productive";
 import Testimonials from "../Testimonials/Testimonials";
 import TestimonialArticle from "../TestimonialArticle/TestimonialArticle";
+import SignUp from "../SignUp/SignUp";
 
 // ArticleImage's imports
 import access from "../../images/icon-access-anywhere.svg";
@@ -78,6 +79,7 @@ const Fylo = () => {
           testimonialPersonTitle="Founder &#x26; CEO, Blue"
         />
       </Testimonials>
+      <SignUp />
     </main>
   );
 };
