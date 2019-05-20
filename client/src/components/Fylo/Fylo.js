@@ -7,6 +7,7 @@ import Productive from "../Productive/Productive";
 import Testimonials from "../Testimonials/Testimonials";
 import TestimonialArticle from "../TestimonialArticle/TestimonialArticle";
 import SignUp from "../SignUp/SignUp";
+import Footer from "../Footer/Footer";
 
 // ArticleImage's imports
 import access from "../../images/icon-access-anywhere.svg";
@@ -80,6 +81,7 @@ const Fylo = () => {
         />
       </Testimonials>
       <SignUp />
+      <Footer />
     </main>
   );
 };
