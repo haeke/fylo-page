@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Button from "../Button/Button";
 
 import "./SignUp.css";
 
@@ -40,7 +41,7 @@ class SignUp extends Component {
             className="signUpInput"
             placeholder="email@example.com"
           />
-          <button className="signUpButton">Get Started For Free</button>
+          <Button text="Get Started For Free" />
         </div>
       </section>
     );

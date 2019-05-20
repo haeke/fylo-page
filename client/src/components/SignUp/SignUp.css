@@ -45,3 +45,9 @@
   background: var(--cyan);
   color: var(--white);
 }
+
+@media only screen and (max-width: 800px) {
+  .inputGroup {
+    display: block;
+  }
+}

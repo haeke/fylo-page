@@ -8,7 +8,6 @@ import Testimonials from "../Testimonials/Testimonials";
 import TestimonialArticle from "../TestimonialArticle/TestimonialArticle";
 import SignUp from "../SignUp/SignUp";
 import Footer from "../Footer/Footer";
-import Button from "../Button/Button";
 
 // ArticleImage's imports
 import access from "../../images/icon-access-anywhere.svg";
@@ -24,7 +23,6 @@ import profile_3 from "../../images/profile-3.jpg";
 const Fylo = () => {
   return (
     <main className="mainSection">
-      <Button text="Example" />
       <Intro />
       <Features>
         <FeaturesArticle

@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../Button/Button";
 
 import illustration from "../../images/illustration-intro.png";
 
@@ -22,7 +23,7 @@ const Intro = () => {
         Access them whever you meed, share and collaborate with friends family,
         and co-workers.
       </p>
-      <button className="introButton whiteText">Get Started</button>
+      <Button text="Get Started" />
     </section>
   );
 };
