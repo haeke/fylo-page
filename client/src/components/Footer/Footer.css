@@ -14,7 +14,8 @@
 }
 
 .footerSection {
-  margin: 0 30px;
+  padding: 20px 30px;
+  background: var(--footerBlue);
 }
 
 .contactWrapper {
