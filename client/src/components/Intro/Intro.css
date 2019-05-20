@@ -13,8 +13,8 @@
 }
 
 .introButton {
-  background: var(--cyan);
-  border: 1px solid var(--cyan);
+  background: var(--accentBlue);
+  border: 1px solid var(--accentBlue);
   font-size: 1rem;
   font-weight: 700;
   margin: 20px;
