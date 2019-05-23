@@ -5,8 +5,9 @@ export const queryCountriesAPI = async name => {
   try {
     let response = await fetch(`https://restcountries.eu/rest/v2/name/${name}`);
     let json = await response.json();
+    console.log(`name searched: ${name}`);
     console.log("response object ", json);
   } catch (error) {
-    console.error(error);
+    console.error(error.message);
   }
 };
