@@ -1,12 +1,18 @@
-import React from "react";
+/* eslint-disable react-hooks/rules-of-hooks */
+import React, { useState, useEffect } from "react";
 
-import { queryCountriesAPI } from "../../api/api";
+import { queryCountriesAPI, useFetch } from "../../api/api";
 
 function Countries() {
+  let [name, updateName] = useState("");
+  useEffect(() => {
+    //   queryCountriesAPI(value);
+    useFetch(`https://restcountries.eu/rest/v2/name/${name}`);
+  }, []);
   const handleChange = event => {
     const { value } = event.target;
     if (value !== "") {
-      queryCountriesAPI(value);
+      updateName(value);
     }
   };
   return (
