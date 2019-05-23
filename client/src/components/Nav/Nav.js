@@ -16,7 +16,7 @@ const Nav = () => {
         <Link to="/" className="navLink">
           Team
         </Link>
-        <Link to="/" className="navLink">
+        <Link to="/countries" className="navLink">
           Sign In
         </Link>
       </nav>
